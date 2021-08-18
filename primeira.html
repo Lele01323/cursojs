@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="area" onclick="clicar()">
+        Interaja
+    </div>
+    Digite um Número:
+    <input type="number" name="n1" id="num1"> 
+    Segundo Número:
+    <input type="number" name="n2" id="num2">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        // var nome = window.prompt('Seu nome:');
+        // document.write(`Seu nome tem ${nome.length} letras`);
+        function clicar() {
+            var a = window.document.getElementById('area')
+            a.innerText = "Clicou!"
+        }
+        function calcular () {
+            var num1 = Number(num1.value);
+            var num2 = Number(num2.value);
+            res.innerHTML = `O resultado da soma é:  ${res}`
+        }
+    </script>
+</body>
+</html>
