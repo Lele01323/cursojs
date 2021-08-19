@@ -1,8 +1,10 @@
 @charaset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap');
 
 :root {
     --font-padrao:'Open Sans', sans-serif;
+    --font-2: 'Josefin Sans', sans-serif;
     --cor0: #D7BBA8;
     --cor1: #F4ACB7;
     --cor2: #FDF0D5;
@@ -10,26 +12,46 @@
     --cor4: #754F5B;
     --cor5: #7D6167;
     --cor6: #FBC2B5;
+    --cor7: #F5E2C8;
+    --cor8: #D88373;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#portal {
+    /* background-image:linear-gradient(to right, var(--cor6), var(--cor1), var(--cor6)); */
+    /* background-color: #5B7553; */
+    font-family: var(--font-2);
+    font-weight: 300;
+    font-size: auto;
+    /* border-style:groove; */
 }
 
 header {
-    background-color: var(--cor0);
+    background-color: var(--cor7);
     text-align: center;
     border-radius: 0.5em;
+    
+    /* min-width: 726px;
+    max-width: px; */
 }
 
 header > h1 {
     font-family: var(--font-padrao);
     font-weight: 400;
-   
 }
 
-div#portal {
-    background-image:linear-gradient(to right, var(--cor6), var(--cor1), var(--cor6));
-    font-family: var(--font-padrao);
-    font-weight: 300;
-    font-size: auto;
+body {
     border-radius: 0.5em;
 }
+
+footer {
+    background-color: var(--cor7);
+    border-radius: 0.5em;
+}
+
 
 

@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Ministério o</title>
+    <title>Ministério</title>
 </head>
 <body>
     <div class="container-fluid">
     <!--Início do Header-->
     <header>
       <div class="row">
-        <div class="col-md-3 mb-2 mt-3">
+        <div class="m-5 col-md-3 mb-2 mt-4">
             <img src="imagens/prefeitura_logo2.png" alt="Logo da Prefeitura de Bragança Paulista">
         </div>
-        <div class="st col-md-6 my-5">
+        <div class="m-5 col-md-4 my-5">
           <h1>Intermediação de Mão de Obra - IMO</h1>
         </div>   
-        <div class="st col-md-2 my-5" id="portal">
-            <h2><small>Portal MTE Mais Emprego</small></h2>
+        <div class="m-5 mb-5 col-md-2 my-5" id="portal">
+            <h4><smal>Portal MTE Mais Emprego</smal></h4>
         </div>
       </div>
     </header>
+    </div>
     <!--Fim do Header-->
 
     <!-- Início do Nav Bar  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="index.html">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -95,9 +96,108 @@
           </div>
         </div>
       </nav>
-      <hr class="dropdown-divider">
+      <div class="container">
+        <hr class="dropdown-divider mb-5">
       </div>
+
+
+      <!--Início do Main-->
+      <main>
+
+      <!-- Início do Form  -->
+      <form>
+        <div class="container">
+        <div class="row justify-content-center">
+        <div class="m-0 mt-2 col-3 row justify-content-center">
+          <label class="form-label">NIS / NIT:</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        
+        <div class="mt-5 col-auto">
+          <button type="button" class="btn-sm btn-primary">Consultar</button>
+        </div>
+        <div class="mt-5 col-3">
+          <button type="button" class="btn-sm btn-primary">Pesquisa Avançada</button>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+        <div class="mr-3 m-2 mt-3 col-3 row justify-content-center">
+          <label class="form-label">CPF:</label>
+          <input type="text" class="form-control" id="exampleInputEmail2">
+        </div>
+        
+        <div class="m-1 mt-5 col-3">
+          <button type="button" class="btn-sm btn-primary">Identificar Cadastro</button>
+        </div>
+        </div>
+      </form>
+      </div>
+
+        <!--Início Footeer-->
+      <footer class="page-footer font-small mdb-color pt-4 mt-5">
+
+        <!-- Início Footer Links -->
+        <div class="container text-center text-md-left">
+
+          <!-- Início Footer links -->
+          <div class="row text-center text-md-left mt-3 pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-center text-uppercase mb-4 font-weight-bold">Prefeitura de Bragança Paulista</h6>
+              <p>Para informações ou dúvidas, entre em contato conosco.</p>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Início Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-center text-uppercase mb-4 font-weight-bold">Contatos</h6>
+              <p>
+                <i class="fas fa-home mr-3"></i>Bragança Paulista - SP, BR</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+              <p>
+                <i class="fas fa-phone mr-3"></i> (11) 4034-2372 </p>
+              
+            </div>
+            <!-- Fim Grid column -->
+
+          </div>
+          <!-- Fim Footer links -->
+
+          <!-- Fim Grid row -->
+          <div class="row d-flex align-items-center">
+
+            <!-- FimGrid column -->
+            <div class="col-md-7 col-lg-8">
+
+              <!--Copyright-->
+              <div class="container">
+              <p class="text-center text-md-center row justify-content-center">© 2021 Copyright:
+                  <strong> Prefeitura Municipal de Bragança</strong>
+                </a>
+              </p>
+              </div>
+
+            </div>
+            <!-- Fim Grid column -->
+
+            </div>
+            <!-- Fim Grid column -->
+
+          </div>
+          <!-- Fim Grid row -->
+
+      </footer>
+      <!-- Fim Footer --> 
+
+      </main>
+      <!--Fim do Main-->
+
 <script src="node_modules/popper.js/dist/popper.js"></script>     
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
